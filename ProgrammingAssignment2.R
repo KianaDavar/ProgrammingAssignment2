@@ -6,7 +6,7 @@ rm(list=ls())
 #set the value of the solve
 #get the value of the solve
 
-
+# matrix
 CacheMatrix <- function(MyMat){
   
                             # Initialize 
@@ -31,7 +31,7 @@ CacheMatrix <- function(MyMat){
                             }
 
 
-##
+##cache  inverse
 
 cacheSolve <- function(x, ...) {
                           MyMat <- x$getInver()
